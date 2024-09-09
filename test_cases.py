@@ -12,12 +12,11 @@ import re
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Getting API key from environment variable
-api_key = 'AIzaSyCDDrJ6pqDjnU3zcJffyciYzhSCog9Efw4'
+api_key = os.environ.get('GEMINI_API_KEY')
 
 if not api_key:
     raise ValueError("GEMINI_API_KEY environment variable is not set")
 genai.configure(api_key=api_key)
-
 
 st.title("Test Case Generator")
 
