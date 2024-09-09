@@ -2,6 +2,8 @@
 
 This project creates a web-based tool for generating test cases from screenshots and optional context. It uses a multimodal Large Language Model (LLM) to process the input and produce detailed, step-by-step guides for testing functionalities.
 
+The app is hosted live at https://test-cases-generator.streamlit.app/ 
+
 ## Features
 
 - Upload multiple screenshot images
