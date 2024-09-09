@@ -1,0 +1,3 @@
+# Ignore system files
+/myenv/
+/Lib/site-packages/
