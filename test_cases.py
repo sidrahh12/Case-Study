@@ -11,8 +11,8 @@ import re
 # Setting Tesseract path
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# Getting API key from environment variable
-api_key = os.getenv('GEMINI_API_KEY')
+# Getting API key froos.getenv('GEMINI_API_KEY')m environment variable
+api_key = 'AIzaSyCDDrJ6pqDjnU3zcJffyciYzhSCog9Efw4'
 
 if not api_key:
     raise ValueError("GEMINI_API_KEY environment variable is not set")
